@@ -65,7 +65,7 @@ function Cell(x,y)
 
         if(neighbors.length > 0)
         {
-            const randomIndex = Math.floor(math.random()*neighbors.length);
+            const randomIndex = Math.floor(Math.random()*neighbors.length);
             return neighbors[randomIndex];
         }
         else
