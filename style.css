@@ -3,14 +3,34 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(221, 219, 219);
+}
+
+h1
+{
+    font-size: 3rem;
+    margin-bottom: 60px;
+    color: rgb(69, 68, 68);
 }
 
 canvas
 {
-    border: 1px solid black;
+    border: 2px solid black;
+    margin-top: 30px;
 }
 
 button
 {
-    font-size: 16px;
+    background-color: black;
+    color: orange;
+    font-weight: bolder;
+    padding: 12px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+button:hover
+{
+    background-color: orange;
+    color: black;
 }
